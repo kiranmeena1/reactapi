@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #071A2F;
+}
+.team{
+  width: 90%;
+  margin: auto;
+  display: flex;
+flex-wrap: wrap;
+text-align: center;
+text-transform: uppercase;
+cursor: pointer;
+}
+.team h2{
+  color: white;
+  font-size: 32px;
+  margin: 40px auto;
+  text-align: center;
+  width:100%;
+}
+.membs{
+  display: flex;
+  margin: auto;
+}
+.main-mambs{
+display: flex;
+flex-wrap: wrap;
+margin: 10% 5%;
+
+}
+.memb-card{
+  width: 260px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.memb-card h3{
+  color:#6c7d96 ;
+  padding: 8px;
+}
+.memb-card p{
+  color: #CBA372;
+  font-weight: 550;
+}
+.memb-card a{
+  text-decoration: none;
+  display: block;
+  color: #bbbb;
+}
+
+.memb-card .social a{
+  display: inline;
+}
+.icon-svg{
+  margin: 4px;
+height: 40px;
+fill: #CBA372;
+}
+.icon-svg:hover{
+  transition: all 0.5s ease-in-out;
+  transform: rotate(359deg);
+  fill: blue;
+}
+.team img{
+  width: 260px;
+  height: 300px;
+  border-radius: 16px;
+}
+@media screen and (max-width:600px) {
+  .memb-card{
+    margin-left: auto;
+  }
+}
